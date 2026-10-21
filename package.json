@@ -1,0 +1,11 @@
+{
+  "name": "lingrove",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lingala Bamboo Products at CMRTC — Learn. Create. Sell. Grow Together.",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "lint:frontend": "npm --prefix frontend run lint"
+  }
+}

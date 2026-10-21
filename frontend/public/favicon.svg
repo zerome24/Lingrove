@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="favStem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B3823"/>
+      <stop offset="100%" stop-color="#24452D"/>
+    </linearGradient>
+    <linearGradient id="favLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#65834C"/>
+      <stop offset="100%" stop-color="#8EAB68"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="120" height="120" rx="28" fill="#FAF8F1"/>
+  <circle cx="60" cy="60" r="52" stroke="#65834C" stroke-width="2.5" opacity="0.3"/>
+
+  <!-- Vertical Culm forming 'L' -->
+  <path d="M50 26 L50 50" stroke="url(#favStem)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M45 50 Q50 52 55 50" stroke="#E8A64A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50 53 L50 78" stroke="url(#favStem)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M45 78 Q50 80 55 78" stroke="#E8A64A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50 78 C50 85, 56 86, 68 86 L80 86" stroke="url(#favStem)" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Leaves -->
+  <path d="M52 38 C65 33, 76 24, 83 20 C78 30, 68 39, 52 41 Z" fill="url(#favLeaf)"/>
+  <path d="M52 54 C68 51, 80 44, 87 40 C80 50, 70 57, 52 56 Z" fill="#65834C"/>
+  <circle cx="83" cy="20" r="3.5" fill="#E8A64A"/>
+</svg>

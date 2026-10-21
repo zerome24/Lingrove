@@ -1,0 +1,59 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and virtual environments
+node_modules/
+**/node_modules/
+venv/
+**/venv/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Database and local backup artifacts (Never commit production or local databases)
+*.db
+*.db-*
+*.db.*
+*.bak
+*.backup
+*.safety*
+*.sqlite
+*.sqlite3
+test_*.db
+**/test_*.db
+**/*.bak
+**/*.backup
+backups/
+**/backups/
+
+# User uploads and runtime files
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Build and IDE outputs
+dist/
+**/dist/
+build/
+.vite/
+.vscode/
+.idea/
+.pytest_cache/
+**/.pytest_cache/
+dist_clean/
+package_dist/
+*.zip
+
+# Logs
+*.log
+logs/
+**/logs/
